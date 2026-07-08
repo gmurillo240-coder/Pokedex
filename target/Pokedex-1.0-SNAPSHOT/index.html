@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+
+
+
+    <head>
+        <meta charset="UTF-8"><!-- caracteres especiales-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Linea para adaptar a dispositivos moviles la pagina-->
+
+        <title>Pokédex</title>
+
+        <link rel="stylesheet" href="css/styles.css"><!--Referencia a css-->
+    </head>
+
+
+
+
+    <body><!-- Inicia cuerpo de pagina  -->
+        <header>
+            <img src="img/logo.webp" alt="Logo Pokémon">
+        </header>
+
+        <main>
+
+            <section id="busqueda">
+
+                <label for="nombrePokemon">Nombre del Pokémon</label>
+
+                <div class="busqueda-contenedor">
+
+                    <input
+                        type="text"
+                        id="nombrePokemon"
+                        placeholder="Ejemplo: Pikachu">
+
+                    <button id="btnBuscar">
+                        Buscar
+                    </button>
+
+                </div>
+
+            </section>
+
+            <section id="resultado">
+
+                <div id="pantalla">
+
+                    <div class="imagenes">
+
+                        <img id="imagenPokemon">
+
+                    </div>
+
+                    <h2 id="nombre"></h2>
+
+                    <p><strong>ID:</strong> <span id="id"></span></p>
+
+                    <p><strong>Tipo:</strong> <span id="tipo"></span></p>
+
+                    <p><strong>Altura:</strong> <span id="altura"></span></p>
+
+                    <p><strong>Peso:</strong> <span id="peso"></span></p>
+
+                </div>
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p>© 2026 Desarollo De Aplicaciones y Servicios de Internet </p>
+            <p></p>
+        </footer>
+
+        <script src="js/app.js"></script><!--llamada a los archivos JS javascript-->
+
+    </body><!-- Termina cuerpo de pagina  -->
+
+</html>

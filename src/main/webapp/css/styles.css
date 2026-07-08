@@ -1,0 +1,141 @@
+body{
+
+    margin:0;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f4f4f4;
+
+}
+header{
+
+    text-align:center;
+
+    padding:10px;
+
+    background:#2A75BB;
+
+}
+header img{
+
+    text-align:center;
+    background:#2A75BB;
+
+}
+
+#busqueda{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+.busqueda-contenedor{
+
+    margin-top:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+#nombrePokemon{
+
+    width:250px;
+
+    padding:25px;
+
+    border-radius:8px;
+
+    border:2px solid #2A75BB;
+
+    font-size:16px;
+
+}
+
+#btnBuscar{
+
+    background:#FFCB05;
+
+    color:#2A75BB;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+#btnBuscar:hover{
+
+    background:#2A75BB;
+
+    color:white;
+
+}
+
+#resultado{
+    width: 350px;
+    height: 600px;
+    background-image: url("../img/pokedex.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    
+    
+    
+}
+
+#pantalla{
+
+    position:absolute;
+
+    top:130px;
+
+    left:80px;
+
+    width:245px;
+
+    height:250px;
+
+}
+
+.imagenes{
+
+    display: block;
+
+    justify-content: flex-start;
+
+    gap:10px;
+
+}
+
+#nombre{
+
+    text-align:center;
+
+    margin:10px 0;
+
+    color:#2A75BB;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
